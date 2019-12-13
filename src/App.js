@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import MainContent from './components/MainContent';
 
 //./ means from current directory
 //a functional component must return something
@@ -8,14 +11,10 @@ import './App.css';
 function App(){ 
   return (
     <div>
-      <input type="checkbox" name="todo1"/>
-      <p>Sending Mails</p>
-      <input type="checkbox" name="todo2"/>
-       <p>Reading FA</p>
-      <input type="checkbox" name="todo3"/> 
-      <p>Call Jethitech</p>
+      <Header/>
+      <MainContent/>
+      <Footer/>
     </div>
-    
     )
 }
 
