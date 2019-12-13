@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
-import MyInfo from './components/MyInfo';
-import Footer from './components/Footer';
-//./ means from current directory
 
-//see a functiononal component can return 
-//a functionional component since MyInfo is also
-//a functional component
+//./ means from current directory
+//a functional component must return something
+//see a functiononal component can return a functionional component since MyInfo is also a functional component
 
 function App(){ 
   return (
     <div>
-      <MyInfo/>
-      <Footer/>
+      <input type="checkbox" name="todo1"/>
+      <p>Sending Mails</p>
+      <input type="checkbox" name="todo2"/>
+       <p>Reading FA</p>
+      <input type="checkbox" name="todo3"/> 
+      <p>Call Jethitech</p>
     </div>
     
     )
