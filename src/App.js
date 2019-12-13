@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MyInfo from './components/MyInfo';
+import Footer from './components/Footer';
+//./ means from current directory
 
-function App() {
+//see a functiononal component can return 
+//a functionional component since MyInfo is also
+//a functional component
+
+function App(){ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MyInfo/>
+      <Footer/>
     </div>
-  );
+    
+    )
 }
+
+
 
 export default App;
