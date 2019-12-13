@@ -4,7 +4,7 @@ import React from "react";
 //sice class is reserved key in vanilla js
 function Header(){
     return (
-        <p>This is header</p>
+        <p className="navbar">This is header</p>
     )
 }
 
