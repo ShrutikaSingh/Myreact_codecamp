@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import '%PUBLIC_URL%/static/css/style.css';
+import  "./components/style.css";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MainContent from './components/MainContent';
