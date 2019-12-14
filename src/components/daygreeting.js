@@ -8,9 +8,8 @@ const printdate= dates.getFullYear()+'-'+parseInt(dates.getMonth()+1)+'-'+dates.
 const styles={
  color:"purple"
 }
-
 return (
-  <p style={styles}>Today Date is : {printdate}</p>
+  <p style={styles}>Today Date is this date : {printdate}</p>
 )
 }
 export default currentDate;
