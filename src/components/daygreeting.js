@@ -4,7 +4,7 @@ import React from "react";
 
 function greetings(){
 let greeting;
-const date= new Date(2018); // change the date to 2018 and it will take the day time so the color will be red
+const date= new Date(); // change the date to 2018 and it will take the day time so the color will be red
 const styles={
  color:"purple"
 }
@@ -22,7 +22,8 @@ const hoursofday=date.getHours();
       styles.color="blue";
   }
 return (
-  <p style={styles}>Good {greeting} </p>
+  <p style={styles}>Good {greeting}</p>
+
 )
 }
 export default greetings;
