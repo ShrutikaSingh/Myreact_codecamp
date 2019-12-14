@@ -15,7 +15,7 @@ const hoursofday=date.getHours();
       greeting="Night"
   }
 return (
-  <p style={{color:"green"}}>Good {greeting} </p> //this type of styling will not work we have to add one for {} since its a javascript not jsx
+  <p style={{backgroundColor:"green"}}>Good {greeting} </p> //this type of styling will not work we have to add one for {} since its a javascript not jsx
 )
 }
 export default greetings;
