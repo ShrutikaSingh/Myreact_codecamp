@@ -4,22 +4,22 @@ import React from "react";
 
 function greetings(){
 let greeting;
-const date= new Date();
+const date= new Date(2018); // change the date to 2018 and it will take the day time so the color will be red
 const styles={
-  backgroundColor:"red", color:"purple"
+ color:"purple"
 }
 const hoursofday=date.getHours();
   if(hoursofday<12){
       greeting="morning"
-      styles.color="blue"; //since styles is a object we can access its pro[erty using . operator
+      styles.color="red"; //since styles is a object we can access its property using . operator
   }
   else if (hoursofday>=12 && hoursofday<=17){
       greeting="Evening";
+      styles.color="blue";
   }
   else{
       greeting="Night";
       styles.color="blue";
-      styles.backgroundColor="black";
   }
 return (
   <p style={styles}>Good {greeting} </p>
