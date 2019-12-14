@@ -1,27 +1,18 @@
 //write a program to wish good morning, evening and afternoon a/c to hours of day
 import React from "react";
-{/*
 function greetings(){
 let greeting;
+const date= new Date();
 const hoursofday=date.getHours();
   if(hoursofday<12){
-      greeting="Good morning";
+      greeting="morning";
   }
   else if (hoursofday>=12 && hoursofday<=17){
-      greeting="Good Evening";
+      greeting="Evening";
   }
   else{
-      greeting="Good Night"
+      greeting="Night"
   }
-return {greeting};
+return (<p>Good {greeting} </p>)
 }
-
-*/}
-
-function dates(){
-  const date=new Date().getHours();
-  return (<p>it is currently about {date%12} o'clock.</p>)
-}
-
-
-export default dates;
+export default greetings;
