@@ -1,5 +1,8 @@
 //write a program to wish good morning, evening and afternoon a/c to hours of day
 import React from "react";
+const styles={
+  backgroundColor:"red", color:"purple"
+}
 
 function greetings(){
 let greeting;
@@ -15,7 +18,7 @@ const hoursofday=date.getHours();
       greeting="Night"
   }
 return (
-  <p style={{backgroundColor:"green", color:"purple"}}>Good {greeting} </p> //this type of styling will not work we have to add one for {} since its a javascript not jsx
+  <p style={styles}>Good {greeting} </p> //this type of styling will not work we have to add one for {} since its a javascript not jsx
 )
 }
 export default greetings;
