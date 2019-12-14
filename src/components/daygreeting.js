@@ -1,4 +1,4 @@
-//write a program to wish good morning, evening and afternoon a/c to hours of day
+//write a program to print the current date
 import React from "react";
 //printing current date
 
