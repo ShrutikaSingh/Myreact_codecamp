@@ -4,7 +4,7 @@ import  "./components/style.css";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MainContent from './components/MainContent';
-import ShowTime from './components/daygreeting';
+import GreetingOfDay from './components/daygreeting';
 //./ means from current directory
 //a functional component must return something
 //see a functiononal component can return a functionional component since MyInfo is also a functional component
@@ -16,9 +16,9 @@ function App(){
       <Header/>
       <MainContent/>
       <Footer/>
-      <ShowTime/>
-    {/* <p>{Greeting.greeting(15)}</p>
-     <Greeting> <p> this is {greetings.greeting}</p></Greeting> */}
+      <GreetingOfDay/>
+    {/* <p>{Greeting.greeting(15)}//this will not work</p>
+     <Greeting> <p> this is {greetings.greeting} //this will not work</p></Greeting> */}
     </div>
     )
 }
